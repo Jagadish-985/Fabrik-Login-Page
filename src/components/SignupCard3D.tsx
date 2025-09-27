@@ -21,7 +21,7 @@ export function SignupCard3D({ position, onSwitchToLogin }: SignupCard3DProps) {
       return
     }
     console.log('Signup attempt:', { firstName, lastName, email, password })
-    // Add signup logic here
+   
   }
 
   const isFormValid = firstName && lastName && email && password && confirmPassword && password === confirmPassword
